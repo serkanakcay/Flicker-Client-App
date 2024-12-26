@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		C91789102D1AECEA00F5D8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917890F2D1AECEA00F5D8C6 /* AppDelegate.swift */; };
 		C91789122D1AECEA00F5D8C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91789112D1AECEA00F5D8C6 /* SceneDelegate.swift */; };
-		C91789142D1AECEA00F5D8C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91789132D1AECEA00F5D8C6 /* ViewController.swift */; };
+		C91789142D1AECEA00F5D8C6 /* RecentPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91789132D1AECEA00F5D8C6 /* RecentPhotosTableViewController.swift */; };
 		C91789172D1AECEA00F5D8C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C91789162D1AECEA00F5D8C6 /* Base */; };
 		C91789192D1AECED00F5D8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91789182D1AECED00F5D8C6 /* Assets.xcassets */; };
 		C917891C2D1AECED00F5D8C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C917891B2D1AECED00F5D8C6 /* Base */; };
+		C91789282D1AF09800F5D8C6 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91789272D1AF09800F5D8C6 /* PhotoTableViewCell.swift */; };
+		C917892B2D1AF28B00F5D8C6 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917892A2D1AF28B00F5D8C6 /* PhotoDetailViewController.swift */; };
+		C91789312D1AF33C00F5D8C6 /* PhotoDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91789302D1AF33C00F5D8C6 /* PhotoDetail.storyboard */; };
+		C9FD06202D1C33C300DFFC1F /* PhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD061F2D1C33C300DFFC1F /* PhotosResponse.swift */; };
+		C9FD06222D1C340100DFFC1F /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD06212D1C340100DFFC1F /* Photos.swift */; };
+		C9FD06242D1C36D600DFFC1F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD06232D1C36D600DFFC1F /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C917890C2D1AECEA00F5D8C6 /* Flicker Client App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flicker Client App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C917890F2D1AECEA00F5D8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C91789112D1AECEA00F5D8C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C91789132D1AECEA00F5D8C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C91789132D1AECEA00F5D8C6 /* RecentPhotosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentPhotosTableViewController.swift; sourceTree = "<group>"; };
 		C91789162D1AECEA00F5D8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C91789182D1AECED00F5D8C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C917891B2D1AECED00F5D8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C917891D2D1AECED00F5D8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C91789272D1AF09800F5D8C6 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		C917892A2D1AF28B00F5D8C6 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		C91789302D1AF33C00F5D8C6 /* PhotoDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoDetail.storyboard; sourceTree = "<group>"; };
+		C9FD061F2D1C33C300DFFC1F /* PhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosResponse.swift; sourceTree = "<group>"; };
+		C9FD06212D1C340100DFFC1F /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		C9FD06232D1C36D600DFFC1F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,101 @@
 		C917890E2D1AECEA00F5D8C6 /* Flicker Client App */ = {
 			isa = PBXGroup;
 			children = (
-				C917890F2D1AECEA00F5D8C6 /* AppDelegate.swift */,
-				C91789112D1AECEA00F5D8C6 /* SceneDelegate.swift */,
-				C91789132D1AECEA00F5D8C6 /* ViewController.swift */,
-				C91789152D1AECEA00F5D8C6 /* Main.storyboard */,
-				C91789182D1AECED00F5D8C6 /* Assets.xcassets */,
-				C917891A2D1AECED00F5D8C6 /* LaunchScreen.storyboard */,
-				C917891D2D1AECED00F5D8C6 /* Info.plist */,
+				C91789252D1AED2300F5D8C6 /* Supporting Files */,
+				C91789242D1AED1C00F5D8C6 /* Screens */,
+				C91789232D1AED0E00F5D8C6 /* App */,
 			);
 			path = "Flicker Client App";
+			sourceTree = "<group>";
+		};
+		C91789232D1AED0E00F5D8C6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C91789112D1AECEA00F5D8C6 /* SceneDelegate.swift */,
+				C917890F2D1AECEA00F5D8C6 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C91789242D1AED1C00F5D8C6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C91789292D1AF25600F5D8C6 /* PhotoDetail */,
+				C91789262D1AED4900F5D8C6 /* RecentPhotos */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C91789252D1AED2300F5D8C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C917891A2D1AECED00F5D8C6 /* LaunchScreen.storyboard */,
+				C917891D2D1AECED00F5D8C6 /* Info.plist */,
+				C91789182D1AECED00F5D8C6 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C91789262D1AED4900F5D8C6 /* RecentPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD061E2D1C33AA00DFFC1F /* Model */,
+				C917892D2D1AF2BF00F5D8C6 /* View */,
+				C917892C2D1AF2A800F5D8C6 /* Controller */,
+			);
+			path = RecentPhotos;
+			sourceTree = "<group>";
+		};
+		C91789292D1AF25600F5D8C6 /* PhotoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C917892F2D1AF31000F5D8C6 /* View */,
+				C917892E2D1AF2E700F5D8C6 /* Controller */,
+			);
+			path = PhotoDetail;
+			sourceTree = "<group>";
+		};
+		C917892C2D1AF2A800F5D8C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C91789132D1AECEA00F5D8C6 /* RecentPhotosTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C917892D2D1AF2BF00F5D8C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C91789272D1AF09800F5D8C6 /* PhotoTableViewCell.swift */,
+				C91789152D1AECEA00F5D8C6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C917892E2D1AF2E700F5D8C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C917892A2D1AF28B00F5D8C6 /* PhotoDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C917892F2D1AF31000F5D8C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C91789302D1AF33C00F5D8C6 /* PhotoDetail.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9FD061E2D1C33AA00DFFC1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD061F2D1C33C300DFFC1F /* PhotosResponse.swift */,
+				C9FD06212D1C340100DFFC1F /* Photos.swift */,
+				C9FD06232D1C36D600DFFC1F /* Photo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +225,7 @@
 			files = (
 				C91789192D1AECED00F5D8C6 /* Assets.xcassets in Resources */,
 				C917891C2D1AECED00F5D8C6 /* Base in Resources */,
+				C91789312D1AF33C00F5D8C6 /* PhotoDetail.storyboard in Resources */,
 				C91789172D1AECEA00F5D8C6 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +237,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C91789142D1AECEA00F5D8C6 /* ViewController.swift in Sources */,
+				C9FD06242D1C36D600DFFC1F /* Photo.swift in Sources */,
+				C91789282D1AF09800F5D8C6 /* PhotoTableViewCell.swift in Sources */,
+				C91789142D1AECEA00F5D8C6 /* RecentPhotosTableViewController.swift in Sources */,
 				C91789102D1AECEA00F5D8C6 /* AppDelegate.swift in Sources */,
+				C9FD06202D1C33C300DFFC1F /* PhotosResponse.swift in Sources */,
+				C917892B2D1AF28B00F5D8C6 /* PhotoDetailViewController.swift in Sources */,
 				C91789122D1AECEA00F5D8C6 /* SceneDelegate.swift in Sources */,
+				C9FD06222D1C340100DFFC1F /* Photos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +398,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RAT2A5542C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Flicker Client App/Info.plist";
+				INFOPLIST_FILE = "Flicker Client App/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +412,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Flicker-Client-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +429,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RAT2A5542C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Flicker Client App/Info.plist";
+				INFOPLIST_FILE = "Flicker Client App/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +443,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Flicker-Client-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
